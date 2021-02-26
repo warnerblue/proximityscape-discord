@@ -1,2 +1,2 @@
-# Example
-An example greeter plugin
+# ProximityScape
+A Proximity Voice Chat for Runescape.
