@@ -5,7 +5,7 @@ Join the [Discord](https://discord.gg/xqc6PPSV)!
 ## Directory
 
 * [Directions](https://github.com/warnerblue/proximityscape#Directions)
-  * Help
+  * [Help](https://github.com/warnerblue/proximityscape#Help)
 
 ## [Directions](#Directions)
 After installing the plugin from the [plugin-hub](https://github.com/runelite/runelite/wiki/Information-about-the-Plugin-Hub) 
