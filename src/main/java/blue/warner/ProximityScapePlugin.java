@@ -1,4 +1,4 @@
-package net.runelite.client.plugins.proximityscape;
+package blue.warner.proximityscape;
 
 
 import com.google.inject.Binder;
