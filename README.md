@@ -1,5 +1,5 @@
 # ProximityScape
-## A Proximity Voice Chat for Runescape.
+A Proximity Voice Chat for Runescape. 
 Join the [Discord](https://discord.gg/xqc6PPSV)! 
 
 ## Directory
