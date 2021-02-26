@@ -7,7 +7,7 @@ Join the [Discord](https://discord.gg/xqc6PPSV)!
 * [Directions](https://github.com/warnerblue/proximityscape#Directions)
   * Help
 
-### [Directions](#Directions)
+## [Directions](#Directions)
 After installing the plugin from the [plugin-hub](https://github.com/runelite/runelite/wiki/Information-about-the-Plugin-Hub) 
 
 First open up the side-menu.
@@ -57,5 +57,5 @@ Finally when you are connected to a voice-channel in ProximityScape enable the p
 
 > NOTE: Disable the plugin when not in use.
 
-#### [Help](#Help)
+### [Help](#Help)
 If you find an issue feel free to open one or join the Discord to message me [here](https://discord.gg/xqc6PPSV).
