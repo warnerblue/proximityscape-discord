@@ -1,9 +1,8 @@
 # ProximityScape
 ## A Proximity Voice Chat for Runescape.
+Join the [Discord](https://discord.gg/xqc6PPSV)! 
 
-## Join the [Discord](https://discord.gg/xqc6PPSV)! 
-
-### Directory
+## Directory
 
 * [Directions](https://github.com/warnerblue/proximityscape#Directions)
   * Help
