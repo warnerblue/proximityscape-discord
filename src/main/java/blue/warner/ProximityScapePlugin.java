@@ -53,7 +53,7 @@ public class ProximityScapePlugin extends Plugin {
                     System.err.println("[Socket] Could not connect to Discord.");
                 }
             }
-            if (!config.ClientID().equals("") && client.getGameState() != GameState.LOGGED_IN) {
+            if (!config.ClientID().equals("") && client.getGameState() == GameState.LOGGED_IN) {
                 try {
                     PrintWriter printWriter = new PrintWriter(socket.getOutputStream());
                     printWriter.println(config.ClientID() + ":" + client.getWorld() + ":" + client.getLocalPlayer().getWorldLocation().getRegionID());
