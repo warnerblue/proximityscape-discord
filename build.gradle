@@ -22,7 +22,7 @@ dependencies {
 	testImplementation group: 'net.runelite', name:'client', version: runeLiteVersion
 }
 
-group = 'blue.warner.proximityscape'
+group = 'blue.warner'
 version = '1.0'
 sourceCompatibility = '1.8'
 

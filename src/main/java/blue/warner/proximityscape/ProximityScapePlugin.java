@@ -1,6 +1,7 @@
 package blue.warner.proximityscape;
 
 import com.google.inject.Provides;
+import net.runelite.api.ChatMessageType;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
 import net.runelite.client.config.ConfigManager;
@@ -43,9 +44,11 @@ public class ProximityScapePlugin extends Plugin {
             if (socket == null && !config.ClientID().equals("")) {
                 try {
                     socket = new Socket("165.232.154.223", 4999);
-                    System.err.println("[Socket] Connected to Discord.");
+                    if(client.getGameState().equals(GameState.LOGGED_IN))
+                    client.addChatMessage(ChatMessageType.MODCHAT,"[ProximityScape]", "Connected to Socket.","");
                 } catch (IOException e) {
-                    System.err.println("[Socket] Could not connect to Discord.");
+                    if(client.getGameState().equals(GameState.LOGGED_IN))
+                    client.addChatMessage(ChatMessageType.MODCHAT,"[ProximityScape]", "Failed to connect to the Socket, report this to warnerBlue.","");;
                 }
             }
             if (!config.ClientID().equals("") && client.getGameState().equals(GameState.LOGGED_IN)) {
@@ -54,6 +57,14 @@ public class ProximityScapePlugin extends Plugin {
                     printWriter.println(config.ClientID() + ":" + client.getWorld() + ":" + client.getLocalPlayer().getWorldLocation().getRegionID());
                     printWriter.flush();
                 } catch (Exception e) {
+                }
+            } else {
+                try{
+                    PrintWriter printWriter = new PrintWriter(socket.getOutputStream());
+                    printWriter.println(config.ClientID() + ":" + "LOGGED_OUT");
+                    printWriter.flush();
+                }catch (Exception e){
+
                 }
             }
         }, 0, 600, TimeUnit.MILLISECONDS);
