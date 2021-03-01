@@ -36,6 +36,11 @@ public class ProximityScapePlugin extends Plugin {
 
     @Override
     protected void startUp() {
+         if(config.ClientID() == ""){
+                client.addChatMessage(ChatMessageType.MODCHAT,"[ProximityScape]", "No ClientID specified.","");
+                 return;
+         } else {
+            
         socket = null;
         ses = Executors.newSingleThreadScheduledExecutor();
 
@@ -67,6 +72,7 @@ public class ProximityScapePlugin extends Plugin {
                 }
             }
         }, 0, 600, TimeUnit.MILLISECONDS);
+         }
     }
 
     @Override
@@ -78,7 +84,9 @@ public class ProximityScapePlugin extends Plugin {
         } catch (Exception e) {
         }
         socket = null;
-        ses.shutdown();
+        if(ses != null){
+                ses.shutdown();
+        }
     }
 
 
