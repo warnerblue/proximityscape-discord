@@ -19,8 +19,7 @@ import java.util.concurrent.TimeUnit;
 @PluginDescriptor(
         name = "ProximityScape - Discord",
         description = "Proximity chat for RuneScape",
-        tags = {"discord", "chat", "proximity", "chunk", "vc"},
-        enabledByDefault = false
+        tags = {"discord", "chat", "proximity", "chunk", "vc"}
 )
 
 public class ProximityScapePlugin extends Plugin {
