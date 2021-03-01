@@ -17,7 +17,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 @PluginDescriptor(
-        name = "ProximityScape",
+        name = "ProximityScape - Discord",
         description = "Proximity chat for RuneScape",
         tags = {"discord", "chat", "proximity", "chunk", "vc"},
         enabledByDefault = false
