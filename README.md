@@ -1,6 +1,6 @@
 # ProximityScape
 A Proximity Voice Chat for Runescape. 
-Join the [Discord](https://discord.gg/xqc6PPSV)! 
+Join the [Discord](https://discord.gg/MS6eEFTVgv)! 
 
 ## Directory
 
@@ -26,7 +26,7 @@ When you click on the cog(the setting icon) next to ProximityScape you should se
 
 ![3](https://user-images.githubusercontent.com/71112556/109360037-fc359500-7832-11eb-878e-211c0085a79c.PNG)
 
-As you can see you need to have a Client-ID so RuneLite can communicate with the discord bot. To get an ID you have to open up the [Discord Server](https://discord.gg/xqc6PPSV) and find the ProximityScape BOT.
+As you can see you need to have a Client-ID so RuneLite can communicate with the discord bot. To get an ID you have to open up the [Discord Server](https://discord.gg/MS6eEFTVgv) and find the ProximityScape BOT.
 
 ![4](https://user-images.githubusercontent.com/71112556/109360170-32731480-7833-11eb-99d9-5df07bb17f5c.PNG)
 
@@ -46,7 +46,7 @@ Copy that token and go back to RuneLite and paste it into the ClientID field of 
 
 ![8](https://user-images.githubusercontent.com/71112556/109360346-87168f80-7833-11eb-8cb0-7daa8e96a503.PNG)
 
-You then need to connect to any voice channel within the [ProximityScape Discord](https://discord.gg/xqc6PPSV)(at the time of writing the only one availiable is Waiting Room)
+You then need to connect to any voice channel within the [ProximityScape Discord](https://discord.gg/MS6eEFTVgv)(at the time of writing the only one availiable is Waiting Room)
 
 ![9](https://user-images.githubusercontent.com/71112556/109360447-b88f5b00-7833-11eb-97ec-7b19274c78d6.PNG)
 ![10](https://user-images.githubusercontent.com/71112556/109360452-bb8a4b80-7833-11eb-9c53-9d97cbcfd136.PNG)
@@ -58,4 +58,4 @@ Finally when you are connected to a voice-channel in ProximityScape enable the p
 > NOTE: Disable the plugin when not in use.
 
 ### [Help](#Help)
-If you find an issue feel free to open one or join the Discord to message me [here](https://discord.gg/xqc6PPSV).
+If you find an issue feel free to open one or join the Discord to message me [here](https://discord.gg/MS6eEFTVgv).
