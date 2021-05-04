@@ -47,7 +47,7 @@ public class ProximityScapePlugin extends Plugin {
         ses.scheduleAtFixedRate(() -> {
             if (socket == null && !config.ClientID().equals("")) {
                 try {
-                    socket = new Socket("165.232.154.223", 4999);
+                    socket = new Socket("143.198.107.197", 4999);
                     if(client.getGameState().equals(GameState.LOGGED_IN))
                     client.addChatMessage(ChatMessageType.MODCHAT,"[ProximityScape]", "Connected to Socket.","");
                 } catch (IOException e) {
